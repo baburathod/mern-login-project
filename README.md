@@ -1,2 +1,3 @@
 # mern-login-project
-A simple MERN stack authentication system with login, registration, and backend API integration.
+# MERN Login & Registration System
+A full-stack MERN login and registration system with user authentication, REST APIs, and MongoDB integration.
