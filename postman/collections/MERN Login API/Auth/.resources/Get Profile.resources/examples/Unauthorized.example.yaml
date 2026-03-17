@@ -1,0 +1,16 @@
+$kind: http-example
+request:
+  url: "{{baseUrl}}/api/profile"
+  method: GET
+  headers:
+    Authorization: Bearer invalid_token
+response:
+  statusCode: 401
+  statusText: Unauthorized
+  body:
+    type: json
+    content: |-
+      {
+        "message": "Unauthorized"
+      }
+order: 2000

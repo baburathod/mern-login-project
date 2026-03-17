@@ -1,0 +1,4 @@
+$kind: collection
+description: Collection for the MERN Login project. Covers the Health Check,
+  User Registration, and User Login endpoints served by the Express + MongoDB
+  backend running on {{baseUrl}}.

@@ -1,0 +1,6 @@
+$kind: http-request
+description: Test route to verify the server and MongoDB are running.
+url: "{{baseUrl}}/"
+method: GET
+examples: ./.resources/Health Check.resources/examples
+order: 1000

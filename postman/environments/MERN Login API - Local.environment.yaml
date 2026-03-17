@@ -1,0 +1,10 @@
+name: MERN Login API - Local
+values:
+  - key: baseUrl
+    value: 'http://localhost:5000'
+    enabled: true
+    description: 'Base URL for the MERN Login API. Change to your deployed URL (e.g. https://your-app.onrender.com) for production.'
+  - key: token
+    value: ''
+    enabled: true
+    description: JWT token for authenticated requests. Auto-populated by the Login User test script.
